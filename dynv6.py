@@ -1,11 +1,12 @@
 import requests
 
 
+# return IPv4 Address
 def getIPv4Address():
     text = requests.get('http://ipv4.ddnspod.com').text
     return text.replace("\n","").replace(" ","")
 
-
+# return IPv6 Address
 def getIPv6Address():
     text = requests.get('http://ipv6.ddnspod.com').text
     return text.replace("\n","").replace(" ","")
