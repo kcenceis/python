@@ -1,5 +1,9 @@
 import requests
 
+##namecheap API##
+#https://www.namecheap.com/support/knowledgebase/article.aspx/29/11/how-to-dynamically-update-the-hosts-ip-with-an-http-request/
+##
+
 
 def getIPv4Address():
     text = requests.get('http://ipv4.ddnspod.com').text
