@@ -1,5 +1,8 @@
 import requests
 
+##dynv6 API##
+#https://dynv6.com/docs/apis#update
+##
 
 # return IPv4 Address
 def getIPv4Address():
